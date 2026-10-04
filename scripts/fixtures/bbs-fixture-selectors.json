@@ -1,0 +1,9 @@
+{
+  "confirmed": false,
+  "note": "fixture 서버 전용 선택자 — 실제 사이트 DOM 이 아니다",
+  "article": "[data-bbs-content]",
+  "title": "h1.bbs-title",
+  "author": ".bbs-author",
+  "approvedAt": ".bbs-approved",
+  "cover": "figure.bbs-cover img"
+}

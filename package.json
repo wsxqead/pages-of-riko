@@ -1,1 +1,18 @@
-{"scripts":{"dev":"next dev","build":"next build","start":"next start"},"dependencies":{"next":"16.0.1","react":"19.2.0","react-dom":"19.2.0"},"devDependencies":{}}
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "validate:bbs": "node scripts/validate-bbs.mjs",
+    "import:bbs": "node scripts/import-bbs-articles.mjs",
+    "backup:bbs": "node scripts/backup-bbs.mjs"
+  },
+  "dependencies": {
+    "next": "16.0.1",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "node-html-parser": "^7.1.0"
+  }
+}
